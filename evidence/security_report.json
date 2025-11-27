@@ -1,0 +1,90 @@
+{
+  "report_info": {
+    "generated_at": "2025-11-21T23:29:05.878880",
+    "report_version": "PayBuddy Security Report v1.0",
+    "team_info": {
+      "team": "CyberGuard",
+      "members": [
+        {
+          "name": "Ali Raza",
+          "reg": "BSFT07-020"
+        },
+        {
+          "name": "Fatima Noor",
+          "reg": "BSFT07-040"
+        },
+        {
+          "name": "Ahmed Khan",
+          "reg": "BSFT07-008"
+        }
+      ],
+      "hash": "96948993c908583e"
+    },
+    "log_file_integrity": "85ba7996272e7483de25788cd1f888cac32d197028d0603c41da236062aff486"
+  },
+  "analysis": {
+    "total_entries": 4,
+    "test_counts": {
+      "Comprehensive Security Scan": 1,
+      "SCAN Module": 1
+    },
+    "findings": [],
+    "errors": [],
+    "timeline": [
+      {
+        "timestamp": "2025-11-21 23:24:55",
+        "type": "TEST_START",
+        "message": "TEST_START | Starting Comprehensive Security Scan against 127.0.0.1 | Data: {\"target\":\"127.0.0.1\",\"c..."
+      },
+      {
+        "timestamp": "2025-11-21 23:24:55",
+        "type": "TEST_END",
+        "message": "TEST_END | Completed Comprehensive Security Scan against 127.0.0.1 | Data: {\"target\":\"127.0.0.1\",\"re..."
+      },
+      {
+        "timestamp": "2025-11-21 23:26:15",
+        "type": "TEST_START",
+        "message": "TEST_START | Starting SCAN Module against 127.0.0.1 | Data: {\"target\":\"127.0.0.1\",\"config\":{\"args\":[..."
+      },
+      {
+        "timestamp": "2025-11-21 23:26:24",
+        "type": "TEST_END",
+        "message": "TEST_END | Completed SCAN Module against 127.0.0.1 | Data: {\"target\":\"127.0.0.1\",\"results\":{\"exit_co..."
+      }
+    ],
+    "modules_used": [
+      "logger"
+    ],
+    "test_summary": {
+      "total_tests": 2,
+      "successful_tests": 2,
+      "failed_tests": 0
+    }
+  },
+  "raw_logs": [
+    {
+      "timestamp": "2025-11-21 23:24:55",
+      "level": "INFO",
+      "module": "logger",
+      "message": "TEST_START | Starting Comprehensive Security Scan against 127.0.0.1 | Data: {\"target\":\"127.0.0.1\",\"config\":{\"output_dir\":\"evidence\\\\comprehensive_test\"},\"start_time\":1763749495.8687813}"
+    },
+    {
+      "timestamp": "2025-11-21 23:24:55",
+      "level": "INFO",
+      "module": "logger",
+      "message": "TEST_END | Completed Comprehensive Security Scan against 127.0.0.1 | Data: {\"target\":\"127.0.0.1\",\"results\":{\"port_scan\":{\"exit_code\":1,\"completed\":false},\"stress_test\":{\"exit_code\":1,\"completed\":false},\"report\":{\"exit_code\":1,\"completed\":false}},\"duration\":0.001970529556274414,\"end_time\":1763749495.8828638}"
+    },
+    {
+      "timestamp": "2025-11-21 23:26:15",
+      "level": "INFO",
+      "module": "logger",
+      "message": "TEST_START | Starting SCAN Module against 127.0.0.1 | Data: {\"target\":\"127.0.0.1\",\"config\":{\"args\":[\"127.0.0.1\"]},\"start_time\":1763749575.945205}"
+    },
+    {
+      "timestamp": "2025-11-21 23:26:24",
+      "level": "INFO",
+      "module": "logger",
+      "message": "TEST_END | Completed SCAN Module against 127.0.0.1 | Data: {\"target\":\"127.0.0.1\",\"results\":{\"exit_code\":0},\"duration\":8.527010202407837,\"end_time\":1763749584.4851005}"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+# PayBuddy Cybersecurity Toolkit Requirements
+# Core dependencies for security testing modules
+
+# Async HTTP operations for stress testing and web discovery
+aiohttp>=3.8.0
+
+# Network packet capture and analysis
+scapy>=2.4.5
+
+# DNS operations for subdomain discovery
+dnspython>=2.2.0
+
+# Password hashing and verification
+bcrypt>=4.0.0
+
+# HTTP requests (backup for some operations)
+requests>=2.28.0
+
+# Report generation - Word documents
+python-docx>=0.8.11
+
+# Report generation - PDF documents
+reportlab>=3.6.0
+
+# Graph generation for performance plots
+matplotlib>=3.6.0
+
+# JSON handling (built-in, but listed for completeness)
+# json - built-in module
+
+# Cryptographic operations (built-in, but listed for completeness)  
+# hashlib - built-in module
+
+# Optional but recommended for enhanced functionality:
+# colorama>=0.4.6     # Colored terminal output
+# rich>=12.0.0        # Enhanced console formatting

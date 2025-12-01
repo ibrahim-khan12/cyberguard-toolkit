@@ -1,0 +1,84 @@
+================================================================================
+PayBuddy Cybersecurity Assessment Report
+================================================================================
+
+Generated: 2025-11-26 21:17:36
+Report Version: PayBuddy Security Report v1.0
+
+TEAM INFORMATION
+----------------------------------------
+Team: CyberGuard
+Members:
+  - {'name': 'Ali Raza', 'reg': 'BSFT07-020'}
+  - {'name': 'Fatima Noor', 'reg': 'BSFT07-040'}
+  - {'name': 'Ahmed Khan', 'reg': 'BSFT07-008'}
+
+ANALYSIS SUMMARY
+----------------------------------------
+Total Log Entries: 125
+Modules Used: logger
+Tests Performed: 7
+Findings: 0
+Errors: 22
+
+TEST COUNTS
+----------------------------------------
+  Comprehensive Security Scan: 9
+  SCAN Module: 13
+  AUTH-TEST Module: 5
+  STRESS Module: 9
+  REPORT Module: 9
+  FOOTPRINT Module: 1
+  PCAP Module: 9
+
+ERRORS ENCOUNTERED
+----------------------------------------
+1. {'message': 'ERROR | AUTH-TEST module failed | Data: {"exit_code":2,"args":["password123","--check"]}', 'timestamp': '2025-11-26 20:42:45', 'module': 'logger'}
+2. {'message': 'ERROR | AUTH-TEST module failed | Data: {"exit_code":2,"args":["password123","--check"]}', 'timestamp': '2025-11-26 20:43:14', 'module': 'logger'}
+3. {'message': 'ERROR | AUTH-TEST module failed | Data: {"exit_code":2,"args":["password123","--check"]}', 'timestamp': '2025-11-26 20:45:03', 'module': 'logger'}
+4. {'message': 'ERROR | STRESS module failed | Data: {"exit_code":1,"args":["http://127.0.0.1","-c","10","-d","15","-o","comprehensive_scan_20251126_204722\\\\stress_test_results.json"]}', 'timestamp': '2025-11-26 20:47:31', 'module': 'logger'}
+5. {'message': 'ERROR | REPORT module failed | Data: {"exit_code":1,"args":["--generate-report","docx","-o","comprehensive_scan_20251126_204722\\\\comprehensive_report.docx"]}', 'timestamp': '2025-11-26 20:47:32', 'module': 'logger'}
+6. {'message': 'ERROR | STRESS module failed | Data: {"exit_code":1,"args":["http://127.0.0.1","-c","10","-d","15","-o","comprehensive_scan_20251126_205024\\\\stress_test_results.json"]}', 'timestamp': '2025-11-26 20:50:50', 'module': 'logger'}
+7. {'message': 'ERROR | REPORT module failed | Data: {"exit_code":1,"args":["--generate-report","txt","-o","comprehensive_scan_20251126_205024\\\\comprehensive_report.txt"]}', 'timestamp': '2025-11-26 20:50:51', 'module': 'logger'}
+8. {'message': 'ERROR | STRESS module interrupted', 'timestamp': '2025-11-26 20:55:20', 'module': 'logger'}
+9. {'message': 'ERROR | REPORT module failed | Data: {"exit_code":1,"args":["--generate-report","txt","-o","comprehensive_scan_20251126_205318\\\\comprehensive_report.txt"]}', 'timestamp': '2025-11-26 20:55:20', 'module': 'logger'}
+10. {'message': 'ERROR | PCAP module failed | Data: {"exit_code":1,"args":["-c","5"]}', 'timestamp': '2025-11-26 21:01:52', 'module': 'logger'}
+11. {'message': 'ERROR | PCAP module failed | Data: {"exit_code":1,"args":["-c","5"]}', 'timestamp': '2025-11-26 21:02:12', 'module': 'logger'}
+12. {'message': 'ERROR | PCAP module failed | Data: {"exit_code":1,"args":["-c","5"]}', 'timestamp': '2025-11-26 21:05:55', 'module': 'logger'}
+13. {'message': 'ERROR | PCAP module failed | Data: {"exit_code":1,"args":["-c","5"]}', 'timestamp': '2025-11-26 21:07:40', 'module': 'logger'}
+14. {'message': 'ERROR | SCAN module failed | Data: {"exit_code":1,"args":["127.0.0.1","-p","common","-o","comprehensive_scan_20251126_211038\\\\port_scan_results.json","--format","json"]}', 'timestamp': '2025-11-26 21:10:39', 'module': 'logger'}
+15. {'message': 'ERROR | STRESS module failed | Data: {"exit_code":1,"args":["http://127.0.0.1","-c","10","-d","15","-o","comprehensive_scan_20251126_211038\\\\stress_test_results.json"]}', 'timestamp': '2025-11-26 21:10:40', 'module': 'logger'}
+16. {'message': 'ERROR | REPORT module failed | Data: {"exit_code":1,"args":["--generate-report","txt","-o","comprehensive_scan_20251126_211038\\\\comprehensive_report.txt"]}', 'timestamp': '2025-11-26 21:10:41', 'module': 'logger'}
+17. {'message': 'ERROR | SCAN module failed | Data: {"exit_code":1,"args":["127.0.0.1","-p","common","-o","comprehensive_scan_20251126_211059\\\\port_scan_results.json","--format","json"]}', 'timestamp': '2025-11-26 21:10:59', 'module': 'logger'}
+18. {'message': 'ERROR | STRESS module failed | Data: {"exit_code":1,"args":["http://127.0.0.1","-c","10","-d","15","-o","comprehensive_scan_20251126_211059\\\\stress_test_results.json"]}', 'timestamp': '2025-11-26 21:11:00', 'module': 'logger'}
+19. {'message': 'ERROR | REPORT module failed | Data: {"exit_code":1,"args":["--generate-report","txt","-o","comprehensive_scan_20251126_211059\\\\comprehensive_report.txt"]}', 'timestamp': '2025-11-26 21:11:01', 'module': 'logger'}
+20. {'message': 'ERROR | STRESS module failed | Data: {"exit_code":1,"args":["http://127.0.0.1","-c","10","-d","15","-o","comprehensive_scan_20251126_211156\\\\stress_test_results.json"]}', 'timestamp': '2025-11-26 21:12:16', 'module': 'logger'}
+21. {'message': 'ERROR | REPORT module failed | Data: {"exit_code":1,"args":["--generate-report","txt","-o","comprehensive_scan_20251126_211156\\\\comprehensive_report.txt"]}', 'timestamp': '2025-11-26 21:12:17', 'module': 'logger'}
+22. {'message': 'ERROR | STRESS module failed | Data: {"exit_code":1,"args":["http://127.0.0.1","-c","10","-d","15","-o","comprehensive_scan_20251126_211522\\\\stress_test_results.json"]}', 'timestamp': '2025-11-26 21:15:42', 'module': 'logger'}
+
+RECENT ACTIVITY LOG
+----------------------------------------
+[2025-11-26 21:12:17] INFO - logger: TEST_END | Completed REPORT Module against --generate-report | Data: {"target":"--generate-report","results":{"exit_code":1},"duration":0.5901269912719727,"end_time":1764173537.5585034}
+[2025-11-26 21:12:17] INFO - logger: ERROR | REPORT module failed | Data: {"exit_code":1,"args":["--generate-report","txt","-o","comprehensive_scan_20251126_211156\\comprehensive_report.txt"]}
+[2025-11-26 21:12:17] INFO - logger: TEST_END | Completed Comprehensive Security Scan against 127.0.0.1 | Data: {"target":"127.0.0.1","results":{"port_scan":{"exit_code":0,"completed":true},"stress_test":{"exit_code":1,"completed":false},"report":{"exit_code":1,"completed":false}},"duration":21.398757696151733,"end_time":1764173537.5916169}
+[2025-11-26 21:15:22] INFO - logger: TEST_START | Starting Comprehensive Security Scan against 127.0.0.1 | Data: {"target":"127.0.0.1","config":{"output_dir":"comprehensive_scan_20251126_211522"},"start_time":1764173722.8056061}
+[2025-11-26 21:15:22] INFO - logger: TEST_START | Starting SCAN Module against 127.0.0.1 | Data: {"target":"127.0.0.1","config":{"args":["127.0.0.1","-p","common","-o","comprehensive_scan_20251126_211522\\port_scan_results.json","--format","json"]},"start_time":1764173722.8241727}
+[2025-11-26 21:15:25] INFO - logger: TEST_END | Completed SCAN Module against 127.0.0.1 | Data: {"target":"127.0.0.1","results":{"exit_code":0},"duration":2.247709035873413,"end_time":1764173725.0859716}
+[2025-11-26 21:15:25] INFO - logger: TEST_START | Starting STRESS Module against http://127.0.0.1 | Data: {"target":"http://127.0.0.1","config":{"args":["http://127.0.0.1","-c","10","-d","15","-o","comprehensive_scan_20251126_211522\\stress_test_results.json"]},"start_time":1764173725.104747}
+[2025-11-26 21:15:42] INFO - logger: TEST_END | Completed STRESS Module against http://127.0.0.1 | Data: {"target":"http://127.0.0.1","results":{"exit_code":1},"duration":17.66329574584961,"end_time":1764173742.785716}
+[2025-11-26 21:15:42] INFO - logger: ERROR | STRESS module failed | Data: {"exit_code":1,"args":["http://127.0.0.1","-c","10","-d","15","-o","comprehensive_scan_20251126_211522\\stress_test_results.json"]}
+[2025-11-26 21:15:42] INFO - logger: TEST_START | Starting REPORT Module against --generate-report | Data: {"target":"--generate-report","config":{"args":["--generate-report","txt","-o","comprehensive_scan_20251126_211522\\comprehensive_report.txt"]},"start_time":1764173742.8187263}
+[2025-11-26 21:15:43] INFO - logger: TEST_END | Completed REPORT Module against --generate-report | Data: {"target":"--generate-report","results":{"exit_code":0},"duration":0.5954563617706299,"end_time":1764173743.4298093}
+[2025-11-26 21:15:43] INFO - logger: TEST_END | Completed Comprehensive Security Scan against 127.0.0.1 | Data: {"target":"127.0.0.1","results":{"port_scan":{"exit_code":0,"completed":true},"stress_test":{"exit_code":1,"completed":false},"report":{"exit_code":0,"completed":true}},"duration":20.621654510498047,"end_time":1764173743.4454267}
+[2025-11-26 21:16:41] INFO - logger: TEST_START | Starting STRESS Module against -c | Data: {"target":"-c","config":{"args":["-c","5","-d","10","-o","test_stress.json","http://127.0.0.1"]},"start_time":1764173801.3357325}
+[2025-11-26 21:16:54] INFO - logger: TEST_END | Completed STRESS Module against -c | Data: {"target":"-c","results":{"exit_code":0},"duration":12.914454698562622,"end_time":1764173814.2649527}
+[2025-11-26 21:17:15] INFO - logger: TEST_START | Starting Comprehensive Security Scan against 127.0.0.1 | Data: {"target":"127.0.0.1","config":{"output_dir":"comprehensive_scan_20251126_211715"},"start_time":1764173835.727197}
+[2025-11-26 21:17:15] INFO - logger: TEST_START | Starting SCAN Module against 127.0.0.1 | Data: {"target":"127.0.0.1","config":{"args":["127.0.0.1","-p","common","-o","comprehensive_scan_20251126_211715\\port_scan_results.json","--format","json"]},"start_time":1764173835.7465868}
+[2025-11-26 21:17:17] INFO - logger: TEST_END | Completed SCAN Module against 127.0.0.1 | Data: {"target":"127.0.0.1","results":{"exit_code":0},"duration":2.203533172607422,"end_time":1764173837.96494}
+[2025-11-26 21:17:17] INFO - logger: TEST_START | Starting STRESS Module against http://127.0.0.1 | Data: {"target":"http://127.0.0.1","config":{"args":["http://127.0.0.1","-c","10","-d","15","-o","comprehensive_scan_20251126_211715\\stress_test_results.json"]},"start_time":1764173837.9807355}
+[2025-11-26 21:17:35] INFO - logger: TEST_END | Completed STRESS Module against http://127.0.0.1 | Data: {"target":"http://127.0.0.1","results":{"exit_code":0},"duration":17.729743003845215,"end_time":1764173855.7266207}
+[2025-11-26 21:17:35] INFO - logger: TEST_START | Starting REPORT Module against --generate-report | Data: {"target":"--generate-report","config":{"args":["--generate-report","txt","-o","comprehensive_scan_20251126_211715\\comprehensive_report.txt"]},"start_time":1764173855.758569}
+
+================================================================================
+End of Report
+================================================================================

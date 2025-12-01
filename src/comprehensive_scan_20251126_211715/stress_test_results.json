@@ -1,0 +1,63 @@
+{
+  "test_info": {
+    "timestamp": "2025-11-26T21:17:35.423972",
+    "tool_version": "PayBuddy LoadTester v1.0",
+    "target_url": "http://127.0.0.1",
+    "test_config": {
+      "clients": 10,
+      "duration": 15,
+      "method": "GET"
+    },
+    "team_info": {
+      "team": "CyberGuard",
+      "members": [
+        {
+          "name": "Ali Raza",
+          "reg": "BSFT07-020"
+        },
+        {
+          "name": "Fatima Noor",
+          "reg": "BSFT07-040"
+        },
+        {
+          "name": "Ahmed Khan",
+          "reg": "BSFT07-008"
+        }
+      ],
+      "hash": "96948993c908583e"
+    }
+  },
+  "results": {
+    "test_summary": {
+      "total_requests": 70,
+      "successful_requests": 0,
+      "failed_requests": 70,
+      "success_rate": 0.0,
+      "duration": 16.277038097381592,
+      "requests_per_second": 4.300536718118302
+    },
+    "response_times": {},
+    "status_codes": {},
+    "errors": [
+      "Cannot connect to host 127.0.0.1:80 ssl:default [The remote computer refused the network connection]",
+      "Cannot connect to host 127.0.0.1:80 ssl:default [The remote computer refused the network connection]",
+      "Cannot connect to host 127.0.0.1:80 ssl:default [The remote computer refused the network connection]",
+      "Cannot connect to host 127.0.0.1:80 ssl:default [The remote computer refused the network connection]",
+      "Cannot connect to host 127.0.0.1:80 ssl:default [The remote computer refused the network connection]",
+      "Cannot connect to host 127.0.0.1:80 ssl:default [The remote computer refused the network connection]",
+      "Cannot connect to host 127.0.0.1:80 ssl:default [The remote computer refused the network connection]",
+      "Cannot connect to host 127.0.0.1:80 ssl:default [The remote computer refused the network connection]",
+      "Cannot connect to host 127.0.0.1:80 ssl:default [The remote computer refused the network connection]",
+      "Cannot connect to host 127.0.0.1:80 ssl:default [The remote computer refused the network connection]"
+    ],
+    "throughput": [
+      {
+        "timestamp": 1764173850.688084,
+        "requests": 50,
+        "rps": 4.331714294306859,
+        "errors": 50,
+        "active_clients": 10
+      }
+    ]
+  }
+}

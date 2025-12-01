@@ -1,0 +1,10 @@
+Approved Targets:
+- 127.0.0.1 (localhost testing)
+- 10.0.2.* (VirtualBox NAT network)
+- 192.168.1.* (Local lab network)
+- mock-api.paybuddy.local (Test environment)
+- TryHackMe Search Skills room
+
+Approved By: Dr. Cybersecurity Instructor
+Date: November 21, 2025
+Purpose: Educational penetration testing for CY4053 Final Project
